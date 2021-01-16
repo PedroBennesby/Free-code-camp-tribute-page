@@ -1,6 +1,11 @@
 @font-face {
-  font-family: "Beloved";
-  src: url("contents/fonts/Beloved.ttf") format("woff2");
+  font-family: "Chivo";
+  src: url(https://fonts.gstatic.com/s/chivo/v12/va9F4kzIxd1KFrjrZvZ4sK0.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Saira';
+   src: url(https://fonts.gstatic.com/s/saira/v6/memWYa2wxmKQyPMrZX79wwYZQMhsyuShhKMjjbU9uXuA71rCks8xlg.woff2) format('woff2'); 
 }
 
 @font-face {
@@ -32,13 +37,13 @@ main {
 }
 
 .titulo {
-  font-family: "Beloved";
+  font-family: "Chivo";
   text-align: center;
   font-size: 5rem;
 }
 
 .sub-titulo {
-  font-family: "Lora";
+  font-family: "Saira";
   text-align: center;
   font-size: 1.4rem;
 }
@@ -56,7 +61,7 @@ figcaption {
 
 #image {
   display: block;
-  font-family: "Lora, Arial, Helvet";
+  font-family: "Saira";
   font-size: 1.6rem;
   text-align: center;
   max-width: 100%;
